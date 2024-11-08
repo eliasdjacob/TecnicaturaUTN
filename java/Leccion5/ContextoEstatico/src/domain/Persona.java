@@ -11,7 +11,7 @@ public class Persona {
     // Constructor
     public Persona(String nombre){
         this.nombre = nombre;
-        // incrementar el contador por cada objeto nuevo
+        // Incrementar el contador por cada objeto nuevo
         Persona.contadorPersona++;// No utilizar operador this
         // Vamos a asignar un nuevo valor a la variable idPersona
         this.idPersona = Persona.contadorPersona;
