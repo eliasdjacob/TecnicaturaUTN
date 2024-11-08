@@ -4,8 +4,8 @@ package Clases;
 // La clase es una plantilla 
 public class Persona {
     // Atributos de clase (Características)
-    String nombre;
-    String apellido;
+    public String nombre;
+    public String apellido;
     
     // Métodos de la clase (Acciones)
     public void obtenerInformacion(){

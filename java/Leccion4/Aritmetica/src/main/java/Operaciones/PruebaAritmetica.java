@@ -4,7 +4,7 @@ package Operaciones;
 
 public class PruebaAritmetica {
     public static void main(String[] args) { 
-        var a = 10; 
+        var a = 10; //variables locales
         int b = 7; 
         miMetodo (); //llamamos al metodo nuevo
         Aritmetica aritmetica1 = new Aritmetica();
@@ -26,13 +26,13 @@ public class PruebaAritmetica {
         System.out.println("aritmetica2 = " + aritmetica2.a);
         System.out.println("aritmetica2 = " + aritmetica2.b);
         //aritmetica1 = null; <- nunca utilizar, no se debe hacer
-        //System.gc(); método para limpiar residuos, es pesado, no se debe utilizar
+        //System.gc(); método para limpiar residuos, no se debe utilizar porque es pesado
 
     }
 
 
      public static void miMetodo (){
-        int a = 10; //una variable está limitada
+        // a = 10; //una variable está limitada
         System.out.println("Aqui hay otro metodo");
     }
 }

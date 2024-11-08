@@ -12,7 +12,7 @@ public class Aritmetica {
     }
     
     // Sobrecarga de constructores 
-    public Aritmetica (int a, int b){
+    public Aritmetica (int a, int b){ //constructor 2
         this.a = a;
         this.b = b;
         System.out.println("Se está ejecutando el constructor número 2");      
